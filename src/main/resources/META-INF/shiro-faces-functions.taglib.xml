@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<!-- ~ Licensed to the Apache Software Foundation (ASF) under one ~ or more 
+	contributor license agreements. See the NOTICE file ~ distributed with this 
+	work for additional information ~ regarding copyright ownership. The ASF 
+	licenses this file ~ to you under the Apache License, Version 2.0 (the ~ 
+	"License"); you may not use this file except in compliance ~ with the License. 
+	You may obtain a copy of the License at ~ ~ http://www.apache.org/licenses/LICENSE-2.0 
+	~ ~ Unless required by applicable law or agreed to in writing, ~ software 
+	distributed under the License is distributed on an ~ "AS IS" BASIS, WITHOUT 
+	WARRANTIES OR CONDITIONS OF ANY ~ KIND, either express or implied. See the 
+	License for the ~ specific language governing permissions and limitations 
+	~ under the License. -->
+<facelet-taglib xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://www.oracle.com/webfolder/technetwork/jsc/xml/ns/javaee/web-facelettaglibrary_2_0.xsd"
+	version="2.0">
+
+	<namespace>http://shiro.apache.org/functions</namespace>
+
+	<function>
+		<function-name>hasAllRoles</function-name>
+		<function-class>org.apache.shiro.web.faces.functions.ELFunctions</function-class>
+		<function-signature>boolean hasAllRoles(java.lang.String)</function-signature>
+	</function>
+
+	<function>
+		<function-name>hasAnyRoles</function-name>
+		<function-class>org.apache.shiro.web.faces.functions.ELFunctions</function-class>
+		<function-signature>boolean hasAnyRoles(java.lang.String)</function-signature>
+	</function>
+
+	<function>
+		<function-name>hasRole</function-name>
+		<function-class>org.apache.shiro.web.faces.functions.ELFunctions</function-class>
+		<function-signature>boolean hasRole(java.lang.String)</function-signature>
+	</function>
+
+	<function>
+		<function-name>isAuthenticated</function-name>
+		<function-class>org.apache.shiro.web.faces.functions.ELFunctions</function-class>
+		<function-signature>boolean isAuthenticated()</function-signature>
+	</function>
+
+	<function>
+		<function-name>isGuest</function-name>
+		<function-class>org.apache.shiro.web.faces.functions.ELFunctions</function-class>
+		<function-signature>boolean isGuest()</function-signature>
+	</function>
+
+	<function>
+		<function-name>isPermitted</function-name>
+		<function-class>org.apache.shiro.web.faces.functions.ELFunctions</function-class>
+		<function-signature>boolean isPermitted(java.lang.String)</function-signature>
+	</function>
+
+	<function>
+		<function-name>isPermittedAll</function-name>
+		<function-class>org.apache.shiro.web.faces.functions.ELFunctions</function-class>
+		<function-signature>boolean isPermittedAll(java.lang.String)</function-signature>
+	</function>
+
+	<function>
+		<function-name>isPermittedAny</function-name>
+		<function-class>org.apache.shiro.web.faces.functions.ELFunctions</function-class>
+		<function-signature>boolean isPermittedAny(java.lang.String)</function-signature>
+	</function>
+
+	<function>
+		<function-name>isRemembered</function-name>
+		<function-class>org.apache.shiro.web.faces.functions.ELFunctions</function-class>
+		<function-signature>boolean isRemembered()</function-signature>
+	</function>
+
+	<function>
+		<function-name>isRunAs</function-name>
+		<function-class>org.apache.shiro.web.faces.functions.ELFunctions</function-class>
+		<function-signature>boolean isRunAs()</function-signature>
+	</function>
+
+	<function>
+		<function-name>isUser</function-name>
+		<function-class>org.apache.shiro.web.faces.functions.ELFunctions</function-class>
+		<function-signature>boolean isUser()</function-signature>
+	</function>
+
+	<function>
+		<function-name>lacksPermission</function-name>
+		<function-class>org.apache.shiro.web.faces.functions.ELFunctions</function-class>
+		<function-signature>boolean lacksPermission(java.lang.String)</function-signature>
+	</function>
+
+	<function>
+		<function-name>lacksRole</function-name>
+		<function-class>org.apache.shiro.web.faces.functions.ELFunctions</function-class>
+		<function-signature>boolean lacksRole(java.lang.String)</function-signature>
+	</function>
+
+	<function>
+		<function-name>notAuthenticated</function-name>
+		<function-class>org.apache.shiro.web.faces.functions.ELFunctions</function-class>
+		<function-signature>boolean notAuthenticated()</function-signature>
+	</function>
+
+
+</facelet-taglib>
+
