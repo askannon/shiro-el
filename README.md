@@ -1,9 +1,9 @@
 shiro-el
 ========
 
-EL Functions for [Apache Shiro}(http://shiro.apache.org/).
+EL Functions for [Apache Shiro](http://shiro.apache.org/).
 
-Provides the following EL function using Shiro facilities for implementation:
+Provides the following JSF Expression Language functions performing Shiro Subject checks:
 
 * hasAllRoles
 * hasAnyRoles
@@ -19,6 +19,8 @@ Provides the following EL function using Shiro facilities for implementation:
 * lacksPermission
 * lacksRole
 * notAuthenticated
+
+They all return a boolean value.
 
 Example:
 ```
