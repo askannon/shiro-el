@@ -27,7 +27,7 @@ Example:
 	xmlns:h="http://java.sun.com/jsf/html"
 	xmlns:sf="http://shiro.apache.org/functions">
 	
-	<h:outputText render="#{sf:isPermitted('secret_test:read')}" value="Some test that requires 'secret_test:read' permission" />
+	<h:outputText rendered="#{sf:isPermitted('secret_test:read')}" value="Some test that requires 'secret_test:read' permission" />
 	
 </html>
 ```
