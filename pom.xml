@@ -27,7 +27,7 @@
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>shiro-faces</artifactId>
+    <artifactId>shiro-el</artifactId>
     <name>Apache Shiro :: Support :: EL</name>
     <packaging>bundle</packaging>
 
